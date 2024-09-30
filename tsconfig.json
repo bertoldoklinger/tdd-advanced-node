@@ -11,10 +11,18 @@
     "esModuleInterop": true,
     "baseUrl": "src",
     "paths": {
-      "@/*": ["*"],
-      "@/tests/*": ["../tests/*"]
+      "@/*": [
+        "*"
+      ],
+      "@/tests/*": [
+        "../tests/*"
+      ]
     },
     "strict": true
   },
-  "include": ["src", "tests"]
+  "include": [
+    "src",
+    "tests",
+    "tests"
+  ]
 }

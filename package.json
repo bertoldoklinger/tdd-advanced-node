@@ -1,5 +1,5 @@
 {
-  "name": "advanced-node",
+  "name": "tdd-advanced-node",
   "version": "0.0.1",
   "description": "Professional API using Clean Architecture and TDD.",
   "license": "GPL-3.0-or-later",
@@ -15,19 +15,6 @@
     "jest",
     "typeorm"
   ],
-  "author": {
-    "name": "Rodrigo Manguinho",
-    "email": "rodrigo.manguinho@gmail.com",
-    "url": "https://rmanguinho.github.io"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/rmanguinho/advanced-node.git"
-  },
-  "bugs": {
-    "url": "https://github.com/rmanguinho/advanced-node/issues",
-    "email": "rodrigo.manguinho@gmail.com"
-  },
   "scripts": {
     "start": "node dist/main/api",
     "build": "rimraf dist && tsc -p tsconfig-build.json",
